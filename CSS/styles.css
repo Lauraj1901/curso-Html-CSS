@@ -1,0 +1,43 @@
+:root{
+  font-size: 50px;
+}
+
+body {
+  color: #212121;
+}
+
+a{
+  color: #212121;
+}
+
+header{
+  font-size: 14px;
+  color:#616161;
+}
+
+header a {
+  color: #616161;
+  text-decoration: none;/*Para quitar el subrayado (underline)*/
+}
+
+header a:hover{
+  color: #212121;
+}
+
+nav details summary{
+  font-weight: bold; /*NEGRITA */
+}
+
+h1{
+  font-size: 60px;
+}
+
+h2{
+  font-size: 2em;
+  /*Un em son 16px, h2 vale 32px*/
+}
+
+h3{
+  font-size: 24px;
+  /*O 1.5em*/
+}
