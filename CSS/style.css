@@ -1,0 +1,89 @@
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-regular.otf);
+  font-style: normal;
+  font-weight:400; /*Va desde 100 a 900 que representa de una fuente ligth a bold*/
+}
+
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-italic.otf);
+  font-style: italic;
+  font-weight:400; /*Va desde 100 a 900 que representa de una fuente ligth a bold*/
+}
+
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold.otf);
+  font-style: normal;
+  font-weight:bold; /*Va desde 100 a 900 que representa de una fuente ligth a bold*/
+}
+
+@font-face {
+  font-family: charter;
+  src: url(../fonts/charter-bold-italic.otf);
+  font-style: italic;
+  font-weight:bold; /*Va desde 100 a 900 que representa de una fuente ligth a bold*/
+}
+:root{
+    font-size: 18px;
+    --gray30:#212121;
+    --gray20:#212429;
+    --gray10:#616161;
+  }
+  
+  body {
+    color: var(--gray30);
+    /*font-family: charter; CUANDO SE USA LA FUNCION FONT-FACE*/
+    font-family: 'Roboto', sans-serif; /*Para usar fuentes de google fonts*/
+  }
+  
+  a{
+    color: var(--gray30);
+  }
+  
+  header{
+    font-size: 14px;
+    color:var(--gray10)
+  }
+  
+  header a {
+    color: var(--gray10);
+    text-decoration: none;
+  }
+  
+  header a:hover{
+    color: var(--gray30);
+  }
+  
+  nav details summary{
+    font-weight: bold; /*NEGRITA */
+  }
+  
+  h1{
+    font-size: 60px;
+  }
+  
+  h2{
+    font-size: 2em;
+    /*Un em son 16px, h2 vale 32px*/
+  }
+  
+  h3{
+    font-size: 24px;
+    /*O 1.5em*/
+  }
+  
+  pre{
+    background: #FEC62E;
+  }
+
+  .patron{
+    background-image:linear-gradient(to top/*hacia donde va a ir*/,rgba(255,255,255,.3) /*desde donde va*/,transparent /*hasta donde va*/), url(../images/patron-1.png);/*Para cuando se tienen fondos con varias imagenes*/
+    /*background-repeat: no-repeat; Para cuando no se quiere repitir el patron de fondo*/
+    /*background-position: center, left, rigth, top, bottom, left top, left 50px bottom 10px...; Para colocar la imagen centrada*/
+    /*background-size: cover; Para que la imagen se expanda dentro del div*/
+    height: 350px;
+  }
+
+ 
